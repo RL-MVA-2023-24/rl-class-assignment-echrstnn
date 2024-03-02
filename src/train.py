@@ -12,6 +12,7 @@ env = TimeLimit(
 # ENJOY!
 class ProjectAgent:
     def act(self, observation, use_random=False):
+        # print(f"\nact\nobs={observation}\nrandom={use_random}")
         return 0
 
     def save(self, path):
